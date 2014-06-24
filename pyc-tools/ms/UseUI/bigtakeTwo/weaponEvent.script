@@ -1,0 +1,12 @@
+headNode = $bianzi_bone00
+hpNode = $hp_对应bianzi_bone00
+if  headNode == undefined  or  hpNode == undefined then (
+    tem = maxFileName  + "武器事件导出出错"	
+    append  TotoErrorArray  tem 
+)else (
+	headNode.parent = undefined 
+	headNode.Transform= hpNode.Transform
+	hide  hpNode
+               try(hide $hp_对应bianzi_bone00) catch()
+				
+)

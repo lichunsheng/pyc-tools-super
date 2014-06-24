@@ -1,0 +1,48 @@
+<ExporterConfig>
+	<MeshOption>
+		<gis
+			gis_file = "model\1255\1255.gis" />
+	</MeshOption>
+	<MaterialOption>
+		<mtl_0
+			desc = "默认材质"
+			name = "&lt;ModelNormalTech&gt;::TNoShader" />
+		<mtl_3
+			desc = "静态模型(x2)"
+			name = "shader\common.fx::TShader" />
+		<mtl_1
+			desc = "强力怪物(x2)"
+			name = "shader\energy_monster.fx::TShader" />
+		<mtl_2
+			desc = "普通角色(x2)"
+			name = "shader\character_chief.fx::TShader" />
+		<last_used
+			index = "0" />
+	</MaterialOption>
+	<SkeletalAnim>
+		<animation
+			name = "animation_01" />
+	</SkeletalAnim>
+</ExporterConfig>
+<SkeletalAnim>
+	<animation
+		name = "attack01" />
+	<animation
+		name = "idle" />
+	<animation
+		name = "win" />
+	<animation
+		name = "walk" />
+	<animation
+		name = "magic" />
+	<animation
+		name = "hit" />
+	<animation
+		name = "die" />
+	<animation
+		name = "attack02" />
+	<animation
+		name = "attack04" />
+	<animation
+		name = "attack03" />
+</SkeletalAnim>

@@ -1,0 +1,12 @@
+headNode = $spine_bone00
+hpNode = $hp挂件骨骼对位
+if  headNode == undefined  or  hpNode == undefined then (
+    tem = maxFileName  + "腰部事件导出出错"	
+    append  TotoErrorArray  tem 
+)else (
+	headNode.parent = undefined 
+	headNode.Transform= hpNode.Transform
+	hide  hpNode
+               try(hide $hp_对应bianzi_bone00) catch()
+				
+)

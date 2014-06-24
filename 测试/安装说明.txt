@@ -1,3 +1,0 @@
-1.双击TexturePacker-3.0.3-win32.msi 自导安装成功
-2.Texture.Packer.3.0.3-patch.exe 当道安装目录下的bin 目录下面 双击。。。。
-3.打开TexturePackerGUI.exe  安装完成。 （一般桌面会自动建立快捷方式）

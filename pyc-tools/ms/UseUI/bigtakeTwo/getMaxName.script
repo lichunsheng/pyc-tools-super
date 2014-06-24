@@ -1,0 +1,12 @@
+fn getmaxnames = (
+  temname =  maxfilename
+  cic = filterString  temname  "."
+  toto = filterString   cic[1]  "_"
+  temo =undefined 
+  if toto.count >1 then (
+     temo  =toto[1]
+  )
+  return  temo 
+)
+
+getmaxnames()

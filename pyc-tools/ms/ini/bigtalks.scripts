@@ -1,0 +1,11 @@
+fn u = 
+(
+op =#()
+for i in gt_g_filemax do 
+(
+  o= substring  i   6 200
+   append  op o
+)
+return op 
+)
+u()

@@ -1,0 +1,38 @@
+
+
+DialogMonitorOPS.unRegisterNotification id:#fxxkTheScript  
+
+function Yvi_dlgMonitorNotification = 
+(
+        WindowHandle = DialogMonitorOPS.GetWindowHandle()
+        WindowName = UIAccessor.GetWindowText WindowHandle
+        if (WindowName != undefined) then
+        (
+            if (findString WindowName "Fgtun2") != undefined then
+                 (
+
+                        chWindows = UIAccessor.GetChildWindows WindowHandle
+                        for h = 1 to chWindows.count do
+                        (
+                                if (chWindows[h] != 0) then
+                                (
+										print ( UIAccessor.GetWindowText chWindows[h] )
+										if ( UIAccessor.GetWindowText chWindows[h] )=="是(&Y)" then  UIAccessor.PressButton  chWindows[h]
+                                )
+                        )
+                )
+        )
+        true --结果返回true
+)
+
+DialogMonitorOPS.RegisterNotification Yvi_dlgMonitorNotification id:#fxxkTheScript
+DialogMonitorOPS.Enabled = true 
+
+
+/*
+
+
+DialogMonitorOPS.Enabled = false 
+DiaialogMonitorOPS.unRegisterNotification id:#fxxkTheScript
+
+*/

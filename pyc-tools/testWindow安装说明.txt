@@ -1,0 +1,15 @@
+1.解压文件后 会出现  "TestWindow" 文件
+
+2.打开 testWindow.exe 文件（管理员权限进行打开） 按界面提示安装就好。
+
+3. 安装好之后 从启max 在菜单栏看到 PYC Tools  工具 ，完成
+
+
+手动安装：（工具安装不成功）
+
+1.pyc_tools 下面的 gt.classPath   gt_path.ini  文件放到 C:\Windowspyc 下面
+
+2.GT_start_run 就是开机要加载的东西。放到 max根目录  scripts\startup  
+
+3.打开C:\Windowspyc  下   gt_path.ini 文件 在里面写入pyc_tools文件 路径
+

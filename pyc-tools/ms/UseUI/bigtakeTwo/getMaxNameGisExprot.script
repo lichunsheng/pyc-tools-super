@@ -1,0 +1,18 @@
+fn getmaxnamesex  = (
+  temname =  maxfilename
+  cic = filterString  temname  "."
+  toto = filterString  cic[1]  "_"
+  if toto.count >1 then (
+     temfist  =toto[1]
+	ss= ""
+	for i in 2 to 2 do (
+		ss+=toto[i]
+		ss+= "_"
+
+	)
+	ss+=temfist  
+  )
+  return  ss 
+)
+
+getmaxnamesex()

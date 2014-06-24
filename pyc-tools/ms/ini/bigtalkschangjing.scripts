@@ -1,0 +1,7 @@
+fn  too = 
+(
+op = gt_max_namespace.gt_cl_hp_shuxingchucunlei()
+ten = op.getValuep $Dummy01  "op"
+return ten
+)
+too()

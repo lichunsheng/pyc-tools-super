@@ -1,0 +1,17 @@
+suit2:128
+suit3:128
+suit4:128
+suit5:256
+suit6:128
+suit7:128
+suit8:128
+suit9:128
+suit10:128
+suit11:11
+suit12:256
+suit13:13
+suit14:128
+suit15:256
+suit16:256
+suit17:256
+suit18:256
